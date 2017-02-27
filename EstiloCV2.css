@@ -73,6 +73,11 @@ section header div h2.sobre_mi{
 	text-align: center;
 }
 
+section header div.sobre_mi_2{
+	text-align: justify;
+	margin-left: 100px;
+}
+
 section article{
 
 }
