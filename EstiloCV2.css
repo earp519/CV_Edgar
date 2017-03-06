@@ -22,7 +22,7 @@ body{
 }
 
 section{
-	border: solid blue 1px;
+	border: groove;
 	margin: 17px;
 	border-radius: 25px 50px 25px 50px;
 	vertical-align: middle;
@@ -31,7 +31,6 @@ section{
 
 section header{
 	margin: auto;
-
 }
 
 section header div{
@@ -39,48 +38,52 @@ section header div{
 	margin: auto;
 }
 
-section header div figure{
-		
-}
-	 
-
-section header div figure img{
+section header div img{
 	border-radius: 20px 30px 20px 30px;
-	margin: 10px;
+	margin: 35px;
 	width: 100%;
 	height: 100%;
 }
 
 section header div.titulo{
-	margin: 10px;
-	
+	margin: 18px;
+	border-left: groove;
 }
 
-section header div h1{
+section header div.titulo table{
+	margin: 10px;
+}
+
+section header div.titulo table tr{
+	text-align: center;
+
+}
+
+section header div.titulo table tr th{
 	text-align: center;
 }
 
-section header div h3{
+section header div.titulo table tr td h1{
+	text-align: center;
+}
+
+section header div.titulo table tr td h2{
 	text-align: center;
 }
 
 section header div.sobre_mi{
-	margin-right: 25px;
-
+	margin: 10px;
 }
 
-section header div h2.sobre_mi{
+section header div h2{
 	text-align: center;
+
 }
 
-section header div.sobre_mi_2{
+section header div p{
 	text-align: justify;
-	margin-left: 100px;
 }
 
-section article{
-
-}
 
 section article div.objetivo{
 	
@@ -94,12 +97,12 @@ section article p.objetivo{
 	margin: 15px;
 }
 
-section h2.experiencia{
+section div h2.experiencia{
 	text-align: center;
 }
 
-section ul{
-	list-style: none;
+section div h2 table{
+	border: 1px solid red;
 }
 
 section ul p.fechas{

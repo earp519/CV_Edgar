@@ -1,0 +1,56 @@
+body{
+border: 1px solid green;
+}
+
+section{
+border: 1px solid orange;
+margin: 20px;
+}
+
+section div{
+border: 1px solid blue;
+margin: 20px;
+}
+
+section div table{
+border: 1px solid red;
+margin: 20px;
+}
+
+section div figure{
+border: 1px solid yellow;
+margin: 20px;
+}
+
+section div figure img{
+border: 1px dotted green;
+margin: 10px;	
+width: 150px;
+height: 150px;
+}
+
+section div p{
+border:dotted orange;
+margin: 20px;
+}
+
+aside{
+border: 1px dotted blue;
+margin: 20px;
+}
+
+aside article{
+	border: 1px dotted red;
+	margin: 20px;
+	text-align: center;	
+}
+
+header{
+	border: 1px dotted yellow;
+	margin: 20px;
+}
+
+footer{
+	border: 1px dashed red;
+	margin: 20px;
+}
