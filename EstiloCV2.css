@@ -1,14 +1,9 @@
 /*
-Titulo
 sobre_mi
 objetivo
 experiencia
-Fechas
-logo
-Puestos
-Actividades
-educacion
-Software
+educación
+software
 */
 
 body{
@@ -18,7 +13,7 @@ body{
 	text-align: justify;
 	background-image: url("imagenes/painted-wall_Gy6AG8du_L.jpg");
 	background-repeat: no-repeat;
-	background-size: 1350px 2500px;
+	background-size: 1350px 2600px;
 }
 
 section{
@@ -97,67 +92,144 @@ section article p.objetivo{
 	margin: 15px;
 }
 
-section div h2.experiencia{
+section.experiencia div{
 	text-align: center;
 }
 
-section div h2 table{
-	border: 1px solid red;
-}
-
-section ul p.fechas{
-	
-}
-
-section ul figure.logo{
-	
-}
-
-section ul li{
-	list-style: none;
-}
-
-section ul p.puesto{
-	
-}
-
-section ul li.actividades{
-	list-style: none;
-}
-
-section.educacion{
-
-}
-
-section h2.educacion{
-text-align: center;
-}
-
-aside{
-	border: solid blue 1px;
-	margin: 17px;
-	border-radius: 25px 50px 25px 50px;
-	text-align: left;
-}
-
-aside div{
+section.experiencia div h2{
 	text-align: center;
 }
 
-aside div div.Software{
+section.experiencia table{
 	display: inline-block;
+}
+
+section.experiencia table thead{
+
+}
+section.experiencia table thead tr{
 
 }
 
-aside div div.Software h2{
+section.experiencia table thead tr th{
 
 }
 
-aside div.Software h4{
+section.experiencia table thead tr th h4{
+	text-align: center;
+}
+
+section.experiencia table tbody{
+
+}
+section.experiencia table tbody tr{
+
+}
+
+section.experiencia table tbody tr th{
+
+}
+
+section.experiencia table tbody tr th h5{
+	text-align: center;
+}
+
+section.experiencia table tfoot{
+
+}
+section.experiencia table tfoot tr{
+
+}
+
+section.experiencia table tfoot tr td{
+	padding:15px;
+}
+
+section.experiencia table tfoot tr td li{
+	text-align: justify;
+	list-style: none;
+}
+
+section.educacion h2{
+	text-align: center;
+}
+
+section.educacion table{
+	text-align: center;
+	margin: 30px;
+}
+
+section.educacion table thead{
+
+}
+
+section.educacion table thead tr{
+
+}
+
+section.educacion table thead tr th{
+	padding:7px;
+	margin-left:15px;
+}
+
+section.educacion table tbody{
+
+}
+
+section.educacion table tbody tr{
+
+}
+
+section.educacion table tbody tr th{
+	padding:7px;
+}
+
+section.educacion table tbody tr td{
+	padding:7px 40px 7px 40px;
+	margin-left:10px;
+}
+
+section.educacion table tbody tr td a{
+
+}
+section.software div{
+	text-align: center;
+	margin: 30px;
+	padding:15px;
+	margin-left:80px;
+}
+
+section.software div h2{
+	text-align: center;
+}
+
+section.software div table{
+	margin: 20px;
+}
+
+section.software div table thead{
+
+}
+
+section.software div table thead tr{
+
+}
+
+section.software div table thead tr th{
+	padding: 20px 20px 20px 20px;
 	
 }
 
-aside div.Software p{
+section.software div table tbody tr{
+
+}
+
+section.software div table tbody tr td{
+	padding: 0px 35px 10px 35px;
+}
+
+
+section.software div table tbody{
 
 }
 
