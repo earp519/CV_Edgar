@@ -33,28 +33,40 @@ section header div{
 	margin: auto;
 }
 
+section header div figure{
+	padding: 0px;
+	margin: 60px;	
+}
+
 section header div img{
 	border-radius: 20px 30px 20px 30px;
-	margin: 35px;
-	width: 100%;
-	height: 100%;
+	width: 160%;
+	height: 160%;
+	display: block;
+	margin: auto;
 }
 
 section header div.titulo{
-	margin: 18px;
-	border-left: groove;
+	margin: 10px;
 }
 
 section header div.titulo table{
 	margin: 10px;
+	padding: 24px;
+	display:block;
+	border-left: groove;
 }
 
 section header div.titulo table tr{
 	text-align: center;
-
+	
 }
 
 section header div.titulo table tr th{
+	text-align: center;
+}
+
+section header div.titulo table tr td{
 	text-align: center;
 }
 
@@ -67,7 +79,9 @@ section header div.titulo table tr td h2{
 }
 
 section header div.sobre_mi{
-	margin: 10px;
+	margin: 5px 220px 0px 50px;
+	padding: 10px;
+
 }
 
 section header div h2{
@@ -90,6 +104,7 @@ section article h2.objetivo{
 
 section article p.objetivo{
 	margin: 15px;
+	padding: 20px;
 }
 
 section.experiencia div{
@@ -101,7 +116,7 @@ section.experiencia div h2{
 }
 
 section.experiencia table{
-	display: inline-block;
+	display: inline;
 }
 
 section.experiencia table thead{
