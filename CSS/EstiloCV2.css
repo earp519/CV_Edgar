@@ -116,7 +116,7 @@ section.experiencia div h2{
 }
 
 section.experiencia table{
-	display: inline;
+	border-collapse: collapse;
 }
 
 section.experiencia table thead{
@@ -172,6 +172,7 @@ section.educacion h2{
 section.educacion table{
 	text-align: center;
 	margin: 30px;
+	border-collapse: collapse;
 }
 
 section.educacion table thead{
