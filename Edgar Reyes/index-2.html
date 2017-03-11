@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!-- Mirrored from jotajotavm.com/sonia/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 11 Mar 2017 19:23:32 GMT -->
+<head>
+	<meta charset="UTF-8">
+	<title>Sonia Carretero</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta name="keywords" content="">
+  	<meta name="description" content="">
+  	<meta name="author" content="jotajotavm.com">
+	<meta name="owner" content="Sonia Carretero">
+	<meta name="robots" content="index, follow">
+  <script src="js/modernizr.custom.31855.js"></script>
+
+  <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/normalize.css">
+
+  <link rel="stylesheet" href="css/icomoon.css">
+  <link rel="stylesheet" href="css/aldo.css">
+  <link rel="stylesheet" href="css/aller.css">
+  <link rel="stylesheet" href="css/design.css">
+
+
+</head>
+<body>
+
+	<header>
+
+    <h1>
+      <a href="index-2.html">
+        <figure id="logo"><img src="img/Icon-2.png" alt=""></figure>
+      </a>
+      <a href="index-2.html">
+        Sonia Carretero
+      </a>
+    </h1>
+
+    <nav id="ioMenu">
+      <!-- MENU con la E en modo amburguesa y EXIT con la X resaltando -->
+      <figure id="showMovil" class="ioMenuMovil" onClick="displayMenu()"><img src="img/menu.png" alt=""></figure>
+
+    	<!-- logo para que salga arriba del menu al desplegarse -->
+      <div id="card_menu">
+        <figure id="hideMenu"  class="ioMenuMovil" onClick="displayMenu()"><img src="img/exit.png" alt=""></figure>
+        <figure id="logo_menu"><img src="img/Logo.png" alt=""></figure>
+        <ul>
+          <li><a onClick = "navSection('home')" href="#">Home</a></li>
+          <li><a onClick = "navSection('aboutme')" href="#">Sobre mí</a></li>
+          <li><a onClick = "navSection('skills')" href="#">Skills</a></li>
+          <li><a onClick = "navSection('portfolio')" href="#">Portfolio</a></li>
+          <li><a onClick = "navSection('blog')" href="#">Blog</a></li>
+          <li><a onClick = "displayFormContact('block')" href="#">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div id="prev_section" onClick="displaySection('prev')"><img src="iconos/icon-08.png" alt=""></div>
+    <div id="next_section" onClick="displaySection('next')"><img src="iconos/icon-08.png" alt=""></div>
+	</header>
+
+
+  <div id="contact_form">
+    <form id="form1" name="form1" method="post" action="http://jotajotavm.com/sonia/contact.php">
+      <div id="close_form" onClick="displayFormContact('none')"></div>
+      <figure id="logo_mensaje"><img src="iconos/icon-17.png" alt=""></figure>
+
+      <p>Dí Hola!</p>
+
+      <input id="name" name="name" type="text" placeholder="Tu nombre" onfocus="if(this.placeholder =='')this.placeholder ='Tu nombre'" />
+
+      <input id="email" name="email" type="text" placeholder="Tu email" onfocus="if(this.placeholder =='')this.placeholder ='Tu email'" />
+
+      <textarea id="message" name="message" type="text"  placeholder="Mensaje" onfocus="if(this.placeholder =='')this.placeholder ='Mensaje'"></textarea>
+
+      <input type="submit" name="Submit" id="button" value="ENVIAR" />
+
+    </form>
+  </div>
+
+  <div id="contact_button" onClick="displayFormContact('block')"></div>
+
+  <div id="slider">
+    <section class="slide" id="home" style="display:block">
+      <div class="facepage">
+      
+        <div class="mainanimation">
+
+          <!-- particles.js container -->
+          <div id="particles-js"></div>
+
+        </div>
+
+        <div class="mainlogo">
+          <h2>Soy una <strong>Diseñadora Gráfica</strong></h2>
+          <figure><img src="img/logo-2.png" alt=""></figure>
+        </div>
+
+      </div>
+      <div class="buttonspage">
+        <div id="contratame" onClick="displayFormContact('block')">CONTRÁTAME</div>
+        <a href="docs/cv-sonia-2016.pdf" target="_blank">DESCARGAR CV</a>
+      </div>
+    </section>
+
+
+    <section class="slide" id="aboutme" style="display:none">
+      
+      <div class="top_am">
+        <figure><img src="img/soniacarretero.jpg" alt=""></figure>
+        <div class="text_am">
+          <h2>SOBRE MI</h2>
+          <p>Soy una Diseñadora Gráfica, una visualizadora rápida y solucionadora de problemas creativos que cree firmemente en la máxima claridad y resolución en lo que hago. Siempre estoy aprendiendo nuevas técnicas y habilidades mientras me esfuerzo por avanzar en la industria creativa.</p>
+          <p>He de decir, que el papel del diseño gráfico tiene una misión importante en nuestra cultura: <em>la construcción de la comunicación.</em></p>
+          <p>Los diseñadores tienen un enorme impacto, ya que crean las experiencias y los valores de nuestra sociedad. En esencia, todo lo que nos rodea emerge a través del diseño.</p>
+          <p>Realizo proyectos de múltiples aspectos. Echa un vistazo aquí debajo a los servicios que ofrezco. Puedo ayudarte. Si tienes un proyecto que deseas empezar y piensas que necesitas mi ayuda con algo, simplemente <span onClick="displayFormContact('block')">dí hola</span>.</p>
+        </div>
+      </div>
+      <div class="bottom_am">
+        <article>
+          <div class="card_service">
+            <h3><strong>Diseño de </strong>Logotipo</h3>
+            <p>Breve párrafo de explicación del servicio referido en esta tarjeta</p>
+          </div>
+        </article>
+        <article>
+          <div class="card_service">
+            <h3><strong>Diseño de </strong>Logotipo</h3>
+            <p>Breve párrafo de explicación del servicio referido en esta tarjeta</p>
+          </div>
+        </article>
+        <article>
+          <div class="card_service">
+            <h3><strong>Diseño de </strong>Logotipo</h3>
+            <p>Breve párrafo de explicación del servicio referido en esta tarjeta</p>
+          </div>
+        </article>
+        <article>
+          <div class="card_service">
+            <h3><strong>Diseño de </strong>Logotipo</h3>
+            <p>Breve párrafo de explicación del servicio referido en esta tarjeta</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="slide" id="skills" style="display:none">
+      
+      <div id="main_skills">
+        
+        <article id="tecnicas">
+          <h2>Skills Técnicas</h2>
+          <div class="box_skills">
+              <div class="skill">
+                <h3>Photoshop</h3>
+                <div class="level" style="width:86%"></div>
+                <div class="rest" style="width:12%"></div>
+                <div class="hexagono" style="left:87%">
+                  <p>87%</p>
+                </div>
+              </div>
+
+              <div class="skill">
+                <h3>Illustrator</h3>
+                <div class="level" style="width:92%"></div>
+                <div class="rest" style="width:6%"></div>
+                <div class="hexagono" style="left:90%">
+                  <p>94%</p>
+                </div>
+              </div>
+
+              <div class="skill">
+                <h3>Indesign</h3>
+                <div class="level" style="width:69%"></div>
+                <div class="rest" style="width:29%"></div>
+                <div class="hexagono" style="left:70%">
+                  <p>70%</p>
+                </div>
+              </div>
+
+              <div class="skill">
+                <h3>Affter Effects  </h3>
+                <div class="level" style="width:32%"></div>
+                <div class="rest" style="width:66%"></div>
+                <div class="hexagono" style="left:33%">
+                  <p>33%</p>
+                </div>
+              </div> 
+          </div>
+        </article>
+        
+        <article id="personales">
+          <h2>Skills Personales</h2>
+          <div class="box_skills">
+              <div class="skill">
+                <h3>Creatividad</h3>
+                <div class="level" style="width:81%"></div>
+                <div class="rest" style="width:17%"></div>
+                <div class="hexagono" style="left:82%">
+                  <p>82%</p>
+                </div>
+              </div>  
+              <div class="skill">
+                <h3>Trabajo en Equipo</h3>
+                <div class="level" style="width:74%"></div>
+                <div class="rest" style="width:24%"></div>
+                <div class="hexagono" style="left:75%">
+                  <p>75%</p>
+                </div>
+              </div>  
+              <div class="skill">
+                <h3>Dedicacion</h3>
+                <div class="level" style="width:62%"></div>
+                <div class="rest" style="width:36%"></div>
+                <div class="hexagono" style="left:63%">
+                  <p>63%</p>
+                </div>
+              </div>  
+              <div class="skill">
+                <h3>Comunicación</h3>
+                <div class="level" style="width:89%"></div>
+                <div class="rest" style="width:9%"></div>
+                <div class="hexagono" style="left:90%">
+                  <p>92%</p>
+                </div>
+              </div>    
+          </div>
+        </article>  
+      </div>
+
+      <div id="other_skills">
+        <article id="conocimientos">
+          <h2>Conocimientos</h2>
+
+          <ul>
+            <li>Windows</li>
+            <li>Microsoft Office</li>
+            <li>Fusion Black Magic</li>
+            <li>Edius</li>
+            <li>DreamWeaver</li>
+            <li>Flash</li>
+            <li>Acrobat PDF</li>
+          </ul>
+          <ul>
+            <li>Marketing / Publicidad</li>
+            <li>Digital / Impresion</li>
+            <li>Branding / Identidad</li>
+            <li>2D Illustration</li>
+            <li>Retoque Fotográfico</li>
+            <li>Web Design</li>
+            <li>Edición de Video y Audio</li>
+          </ul>
+          <ul>
+            <li>Flat Design</li>
+            <li>HTML / CSS</li>
+            <li>Drupal</li>
+            <li>Fotografía</li>
+          </ul>
+        </article>
+
+        <article id="hobbies">
+          <h2>Hobbies</h2>
+          <div class="hobby">
+            <div></div><p>Gatos</p>
+          </div>
+          <div class="hobby">
+            <div></div><p>Juegos</p>
+          </div>
+          <div class="hobby">
+            <div></div><p>Leer</p>
+          </div>
+          <div class="hobby">
+            <div></div><p>Bandas Musicales</p>
+          </div>
+          <div class="hobby">
+            <div></div><p>Tech Geek</p>
+          </div>
+          <div class="hobby">
+            <div></div><p>Cine</p>
+          </div>
+        </article>
+        
+      </div>
+    </section>
+
+    <section class="slide" id="portfolio" style="display:none">
+      <div id="content_portfolio">
+          <div id="categorias">
+        <h2 onClick = "SearchJobs('todos')">todos</h2>
+        <h2 onClick = "SearchJobs('impresion')">impresion</h2>
+        <h2 onClick = "SearchJobs('logotipo')">logotipo</h2>
+        <h2 onClick = "SearchJobs('websites')">websites</h2>
+        <h2 onClick = "SearchJobs('multimedia')">multimedia</h2>
+      </div>
+
+      <div id="jobs">
+        <article class="logotipo">
+          <figure>
+            <img src="iconos/icon-10.png" alt="">
+            <figcaption>LOGOTIPO<span>BRANDING</span></figcaption>
+          </figure>
+        </article>  
+        <article class="impresion">
+          <figure>
+            <img src="iconos/icon-10.png" alt="">
+            <figcaption>IMPRESION<span>BRANDING</span></figcaption>
+          </figure>
+        </article>  
+        <article class="websites">
+          <figure>
+            <img src="iconos/icon-10.png" alt="">
+            <figcaption>WEBSITES<span>BRANDING</span></figcaption>
+          </figure>
+        </article>  
+        <article class="logotipo">
+          <figure>
+            <img src="iconos/icon-10.png" alt="">
+            <figcaption>LOGOTIPO<span>BRANDING</span></figcaption>
+          </figure>
+        </article>  
+        <article class="multimedia">
+          <figure>
+            <img src="iconos/icon-10.png" alt="">
+            <figcaption>MULTIMEDIA<span>BRANDING</span></figcaption>
+          </figure>
+        </article>  
+        <article class="impresion">
+          <figure>
+            <img src="iconos/icon-10.png" alt="">
+            <figcaption>IMPRESION<span>BRANDING</span></figcaption>
+          </figure>
+        </article>  
+        <article class="multimedia">
+          <figure>
+            <img src="iconos/icon-10.png" alt="">
+            <figcaption>MULTIMEDIA<span>BRANDING</span></figcaption>
+          </figure>
+        </article>  
+        <article class="websites">
+          <figure>
+            <img src="iconos/icon-10.png" alt="">
+            <figcaption>WEBSITES<span>BRANDING</span></figcaption>
+          </figure>
+        </article>  
+      </div>  
+      </div>
+      
+    </section>
+
+    <section class="slide" id="blog" style="display:none">
+      <div id="container_blog">
+        <article class="post double">
+          <div class="post_izq">
+            <figure><img src="iconos/icon-16.png" alt=""></figure>
+          </div>  
+          <div class="post_dcha">
+            <div class="post_text">
+              <span>ago 00, 2016</span>
+              <h2>Entrada 1</h2>
+              <p>0 comentarios</p>
+            </div>
+          </div>
+        </article>
+        <article class="post">
+          <div class="post_text">
+            <span>ago 00, 2016</span>
+            <h2>Entrada 1</h2>
+            <p>0 comentarios</p>
+          </div>
+        </article>
+
+        <article class="post">
+          <div class="post_text">
+            <span>ago 00, 2016</span>
+            <h2>Entrada 1</h2>
+            <p>0 comentarios</p>
+          </div>
+        </article>
+
+        <article class="post">
+          <div class="post_text">
+            <span>ago 00, 2016</span>
+            <h2>Entrada 1</h2>
+            <p>0 comentarios</p>
+          </div>
+        </article>
+
+        <article class="post double">
+          <div class="post_izq">
+            <figure><img src="iconos/icon-16.png" alt=""></figure>
+          </div>  
+          <div class="post_dcha">
+            <div class="post_text">
+              <span>ago 00, 2016</span>
+              <h2>Entrada 1</h2>
+              <p>0 comentarios</p>
+            </div>
+          </div>
+        </article>
+        <article class="post">
+          <div class="post_text">
+            <span>ago 00, 2016</span>
+            <h2>Entrada 1</h2>
+            <p>0 comentarios</p>
+          </div>
+        </article>
+        <article class="post double">
+          <div class="post_izq">
+            <figure><img src="iconos/icon-16.png" alt=""></figure>
+          </div>  
+          <div class="post_dcha">
+            <div class="post_text">
+              <span>ago 00, 2016</span>
+              <h2>Entrada 1</h2>
+              <p>0 comentarios</p>
+            </div>
+          </div>
+        </article>
+        <article class="post">
+          <div class="post_text">
+            <span>ago 00, 2016</span>
+            <h2>Entrada 1</h2>
+            <p>0 comentarios</p>
+          </div>
+        </article>
+
+        <article class="post">
+          <div class="post_text">
+            <span>ago 00, 2016</span>
+            <h2>Entrada 1</h2>
+            <p>0 comentarios</p>
+          </div>
+        </article>
+
+        <article class="post">
+          <div class="post_text">
+            <span>ago 00, 2016</span>
+            <h2>Entrada 1</h2>
+            <p>0 comentarios</p>
+          </div>
+        </article>
+
+        <article class="post double">
+          <div class="post_izq">
+            <figure><img src="iconos/icon-16.png" alt=""></figure>
+          </div>  
+          <div class="post_dcha">
+            <div class="post_text">
+              <span>ago 00, 2016</span>
+              <h2>Entrada 1</h2>
+              <p>0 comentarios</p>
+            </div>
+          </div>
+        </article>
+        <article class="post">
+          <div class="post_text">
+            <span>ago 00, 2016</span>
+            <h2>Entrada 1</h2>
+            <p>0 comentarios</p>
+          </div>
+        </article>
+
+      </div>
+      
+    </section>
+
+  </div>
+
+  
+
+	<footer>
+    <div class="rrss">
+      <a href="#">
+        <figure><img src="iconos/rrss.png" alt=""></figure>
+      </a>
+      <a href="#">
+        <figure><img src="iconos/rrss.png" alt=""></figure>
+      </a>
+      <a href="#">
+        <figure><img src="iconos/rrss.png" alt=""></figure>
+      </a>
+      <a href="#">
+        <figure><img src="iconos/rrss.png" alt=""></figure>
+      </a>
+    </div> 
+    <p>© 2016 All rights reserved | Privacity Policy</p>
+  </footer>
+
+
+<!-- <script src="js/navigation.js"></script>  -->
+
+
+<script src="js/particles.js"></script>
+<script src="js/app.js"></script>
+
+
+<script type="text/javascript">
+  alertSize();
+  function alertSize() {
+    var myWidth = 0, myHeight = 0;
+    if( typeof( window.innerWidth ) == 'number' ) {
+      //No-IE
+      myWidth = window.innerWidth;
+      myHeight = window.innerHeight;
+    } else if( document.documentElement && ( document.documentElement.clientWidth || document.documentElement.clientHeight ) ) {
+      //IE 6+
+      myWidth = document.documentElement.clientWidth;
+      myHeight = document.documentElement.clientHeight;
+    } else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {
+      //IE 4 compatible
+      myWidth = document.body.clientWidth;
+      myHeight = document.body.clientHeight;
+    }
+
+    var menu = document.getElementById("card_menu");
+    var display = menu.style.display;
+    //alert(display)
+    if (myWidth < 767){
+      menu.style.display = "none"; //none
+    }
+    else{
+      menu.style.display = "block";
+      //if (display == "none" || display == "") menu.style.display = "none";
+    }
+
+  } 
+
+  function changeProperty(elem, property, start, end){
+
+  }
+
+  function displayMenu(){
+    var display;
+    var start, end;
+    var menu = document.getElementById("card_menu");
+    var display = menu.style.display;
+   
+    //if (left == "-233px"){
+    if (display == "none"){
+      start = -233; end = 0;
+      //menu.style.left = "0px"
+      menu.style.display = "block";
+    }
+    else{
+      start = 0; end = -233;
+      //menu.style.left = "-233px"
+      menu.style.display = "none";
+    }
+    //changeProperty(menu,"left", start, end);
+
+  }
+/*
+  function displaySubMenu(sm){
+    var display;
+    var subMenu = document.getElementById(sm);
+  
+    display = subMenu.style.display;
+    if (display == "block")  
+        subMenu.style.display = "none";
+    else 
+        subMenu.style.display = "block";
+  }
+*/
+
+
+  function displayFormContact(status){
+    var formContact = document.getElementById("contact_form");
+    formContact.style.display = status;
+    
+  }
+
+  function displaySection(nav){
+    var sections = new Array(5);
+    sections[0] = "home";
+    sections[1] = "aboutme";
+    sections[2] = "skills";
+    sections[3] = "portfolio";
+    sections[4] = "blog";
+
+    var show;
+    var search;
+    var bkgr_body;
+    var bkgr_menu;
+
+    for (var i=0; i<5; i++){/*
+        if (document.getElementById("home").style.display == "block"){
+          document.getElementById("home").style.display = "none";
+        }
+    */
+      search = document.getElementById(sections[i]);
+      //alert("buscando " + sections[i]);
+      show = search.style.display;
+      //alert(show);
+      
+      
+      if (search.style.display == "block"){
+
+        //alert("section encontrada!!!");
+        search.style.display = "none";
+        if (nav == "next"){
+          i++; 
+          if (i > 4) i = 0;
+        }  
+        if (nav == "prev"){
+          i--; 
+          if (i < 0) i = 4;
+        } 
+        search = document.getElementById(sections[i]);
+        search.style.display = "block";  
+        break;
+      }
+    } 
+
+    if (sections[i] == "home"){
+      bkgr_body = "#233D58";
+      bkgr_menu = "#233D58";
+    }
+    else{
+      bkgr_body = "#f1f1f1";
+      bkgr_menu = "#29abe2";
+    }
+    search.style.background = bkgr_body;
+    var menu = document.getElementsByTagName("header")[0];
+    menu.style.background = bkgr_menu; 
+
+    var contact = document.getElementById("contact_form");
+    contact.style.display = "none";
+    
+  }
+
+  function navSection(nav){
+    var sections = new Array(5);
+    sections[0] = "home";
+    sections[1] = "aboutme";
+    sections[2] = "skills";
+    sections[3] = "portfolio";
+    sections[4] = "blog";
+
+    var show;
+    var search;
+    var bkgr_body;
+    var bkgr_menu;
+
+    for (var i=0; i<5; i++){
+      search = document.getElementById(sections[i]);
+      search.style.display = "none";
+      if (nav == sections[i]){
+        search.style.display = "block";  
+        if (sections[i] == "home"){
+          bkgr_body = "#233D58";
+          bkgr_menu = "#233D58";
+        }
+        else{
+          bkgr_body = "#f5f5f5";
+          bkgr_menu = "#29abe2";
+        }
+        search.style.background = bkgr_body;
+        var menu = document.getElementsByTagName("header")[0];
+        menu.style.background = bkgr_menu; 
+      }
+    } 
+
+    if (window.innerWidth < 767){
+      var menu = document.getElementById("card_menu");
+      menu.style.display = "none";    
+    }
+
+
+  }
+
+  function SearchJobs(typeJob){
+
+      var options = new Array(5);
+      
+      options[0] = "todos";
+      options[1] = "impresion";
+      options[2] = "logotipo";
+      options[3] = "websites";
+      options[4] = "multimedia";
+/*
+      for (var i = 0; i < 5; i++){
+        
+        element = document.getElementById(options[i]);
+        element.style.color = "#24518C";
+        element.style.background = "none";
+      }
+
+
+      element = document.getElementById("search_" + typeCourse);
+      element.style.color = "#f7f7f7";
+      element.style.background = "#24518C";
+*/
+      alljobs = document.getElementById("jobs");
+      alljobs = alljobs.getElementsByTagName('article');
+
+
+      for (i = 0; i < alljobs.length; i++){
+        
+        if (typeJob == alljobs[i].className.substring(0, typeJob.length))
+          alljobs[i].style.display = "inline-block";
+        else
+          alljobs[i].style.display = "none";
+
+        if (typeJob == "todos")          
+          alljobs[i].style.display = "inline-block";
+
+      }
+
+      categorias = document.getElementById("categorias");
+      categorias = categorias.getElementsByTagName('h2');
+
+
+      for (i = 0; i < categorias.length; i++){
+          categorias[i].style.color = "black";
+          categorias[i].style.background = "white";
+
+          if (typeJob.toUpperCase() == categorias[i].innerText){
+            categorias[i].style.color = "white";
+            categorias[i].style.background = "#29abe2";
+  
+          }
+      }
+        
+    }
+
+</script>
+
+</body>
+
+<!-- Mirrored from jotajotavm.com/sonia/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 11 Mar 2017 19:23:32 GMT -->
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
