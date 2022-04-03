@@ -8,12 +8,12 @@
 
 	<meta name="keywords" content="">
   	<meta name="description" content="">
-  	<meta name="author" content="">
-	<meta name="owner" content="Edgar Reyes">
+  	<meta name="author" content="earp519.com.mx">
+	<meta name="owner" content="Edgar Alfonso Reyes Pérez">
 	<meta name="robots" content="index, follow">
   <script src="js/modernizr.custom.31855.js"></script>
 
-  <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="img/Icon.png" type="image/x-icon">
   <link rel="stylesheet" href="css/normalize.css">
 
   <link rel="stylesheet" href="css/icomoon.css">
@@ -29,10 +29,10 @@
 
     <h1>
       <a href="index-2.html">
-        <figure id="logo"><img src="img/pmp.png" alt=""></figure>
+        <figure id="logo"><img src="img/Icon.png" alt=""></figure>
       </a>
       <a href="index-2.html">
-        Edgar Reyes
+        Edgar Alfonso Reyes Pérez
       </a>
     </h1>
 
@@ -49,12 +49,38 @@
           <li><a onClick = "navSection('aboutme')" href="#">Objetivo</a></li>
           <li><a onClick = "navSection('skills')" href="#">Skills</a></li>
           <li><a onClick = "navSection('portfolio')" href="#">Experiencia</a></li>
+<!--      <li><a onClick = "navSection('blog')" href="#">Blog</a></li>
+          <li><a onClick = "displayFormContact('block')" href="#">Contacto</a></li>-->
         </ul>
       </div>
     </nav>
 
+    <div id="prev_section" onClick="displaySection('prev')"><img src="iconos/icon-08.png" alt=""></div>
+    <div id="next_section" onClick="displaySection('next')"><img src="iconos/icon-08.png" alt=""></div>
 	</header>
 
+ 
+  <!-- <div id="contact_form">
+    <form id="form1" name="form1" method="post" action="https://jotajotavm.com/sonia/contact.php">
+      <div id="close_form" onClick="displayFormContact('none')"></div>
+      <figure id="logo_mensaje"><img src="iconos/icon-17.png" alt=""></figure>
+
+      <p>Dí Hola!</p>
+
+      <input id="name" name="name" type="text" placeholder="Tu nombre" onfocus="if(this.placeholder =='')this.placeholder ='Tu nombre'" />
+
+      <input id="email" name="email" type="text" placeholder="Tu email" onfocus="if(this.placeholder =='')this.placeholder ='Tu email'" />
+
+      <textarea id="message" name="message" type="text"  placeholder="Mensaje" onfocus="if(this.placeholder =='')this.placeholder ='Mensaje'"></textarea>
+
+      <input type="submit" name="Submit" id="button" value="ENVIAR" />
+
+    </form>
+  </div>
+ -->
+
+
+  <div id="contact_button" onClick="displayFormContact('block')"></div>
 
   <div id="slider">
     <section class="slide" id="home" style="display:block">
@@ -62,23 +88,22 @@
       
         <div class="mainanimation">
 
+
+
           <!-- particles.js container -->
           <div id="particles-js"></div>
 
         </div>
 
         <div class="mainlogo">
-          <h2>Soy<strong>Project Manager / Consultor</strong></h2>
-          <figure><img src="img/pmp.png" alt=""></figure>
+          <h2>Edgar Reyes<strong>Scrum Master / PMP</strong></h2>
+          <figure><img src="img/PMP.png" alt=""></figure>
         </div>
 
       </div>
       <div class="buttonspage">
-        <a href="doctos/CV Edgar Reyes/CV_12.pdf" target="_blank">DESCARGAR CV</a>
-      </div>
-
-      <div class="buttonspage">
-        <a href="Formulario_contacto" target="">CONTACTO</a>
+<!--         <div id="contratame" onClick="displayFormContact('block')">CONTACTAME</div> -->
+        <a href="doctos/CV_19.pdf" target="_blank">DESCARGAR CV COMPLETO</a>
       </div>
     </section>
 
@@ -86,170 +111,152 @@
     <section class="slide" id="aboutme" style="display:none">
       
       <div class="top_am">
-        <figure><img src="img/Image_001.jpg" alt=""></figure>
+        <figure><img src="img/Edgar_Reyes.jpg" alt=""></figure>
         <div class="text_am">
-          <h2>OBJETIVO</h2>
+          <h2>Objetivo</h2>
           <p>Coadyuvar al logro de objetivos y cumplimiento de los compromisos establecidos por la empresa en el tiempo establecido dentro del presupuesto y con calidad. Actualizar constantemente mis conocimientos de Administración de proyectos que me permitan no solo generar soluciones innovadoras, también agilizar y facilitar la adopción de las mejores prácticas que beneficien a la empresa con su implementación.</p>
+          <!-- <p>He de decir, que el papel del diseño gráfico tiene una misión importante en nuestra cultura: <em>la construcción de la comunicación.</em></p>
+          <p>Los diseñadores tienen un enorme impacto, ya que crean las experiencias y los valores de nuestra sociedad. En esencia, todo lo que nos rodea emerge a través del diseño.</p> -->
+          <p>Realizo proyectos de múltiples aspectos. Echa un vistazo aquí debajo a los servicios que ofrezco. Puedo ayudarte. Si tienes un proyecto que deseas empezar y piensas que necesitas mi ayuda con algo, simplemente <span onClick="displayFormContact('block')">dí hola</span>.</p>
         </div>
       </div>
-
+      <!-- <div class="bottom_am">
+        <article>
+          <div class="card_service">
+            <h3><strong>Diseño de </strong>Educacion</h3>
+            <p>Breve párrafo de explicación del servicio referido en esta tarjeta</p>
+          </div>
+        </article>
+        <article>
+          <div class="card_service">
+            <h3><strong>Diseño de </strong>Educacion</h3>
+            <p>Breve párrafo de explicación del servicio referido en esta tarjeta</p>
+          </div>
+        </article>
+        <article>
+          <div class="card_service">
+            <h3><strong>Diseño de </strong>Educacion</h3>
+            <p>Breve párrafo de explicación del servicio referido en esta tarjeta</p>
+          </div>
+        </article>
+        <article>
+          <div class="card_service">
+            <h3><strong>Diseño de </strong>Educacion</h3>
+            <p>Breve párrafo de explicación del servicio referido en esta tarjeta</p>
+          </div>
+        </article>
+      </div> -->
     </section>
-
 
     <section class="slide" id="skills" style="display:none">
       
       <div id="main_skills">
         
         <article id="tecnicas">
-          <h2>Skills Técnicas Proyectos</h2>
+          <h2>Skills Técnicas</h2>
           <div class="box_skills">
               <div class="skill">
-                <h3>Daptiv</h3>
-                <div class="level" style="width:60%"></div>
-                <div class="rest" style="width:39%"></div>
-                <div class="hexagono" style="left:60%">
-                  <p>60%</p>
-                </div>
-              </div>
-
-              <div class="skill">
-                <h3>Project 2007-2010</h3>
-                <div class="level" style="width:75%"></div>
-                <div class="rest" style="width:24%"></div>
-                <div class="hexagono" style="left:75%">
-                  <p>85%</p>
-                </div>
-              </div>
-              
-              <div class="skill">
-                <h3>Microsoft Project Server 2007-2010</h3>
-                <div class="level" style="width:65%"></div>
-                <div class="rest" style="width:34%"></div>
-                <div class="hexagono" style="left:65%">
-                  <p>65%</p>
-                </div>
-              </div>
-
-              <div class="skill">
-                <h3>WBS Chart Pro</h3>
+                <h3>Project</h3>
                 <div class="level" style="width:92%"></div>
                 <div class="rest" style="width:6%"></div>
-                <div class="hexagono" style="left:90%">
-                  <p>94%</p>
-                </div>
-              </div>
-
-              <div class="skill">
-                <h3>Clarity</h3>
-                <div class="level" style="width:40%"></div>
-                <div class="rest" style="width:59%"></div>
-                <div class="hexagono" style="left:40%">
-                  <p>40%</p>
-                </div>
-              </div>
-          </div>
-        </article>
-
-        <article id="tecnicas">
-          <h2>Skills Técnicas Digital</h2>
-          <div class="box_skills">
-              <div class="skill">
-                <h3>Bing ADS</h3>
-                <div class="level" style="width:60%"></div>
-                <div class="rest" style="width:39%"></div>
-                <div class="hexagono" style="left:60%">
-                  <p>60%</p>
-                </div>
-              </div>
-
-              <div class="skill">
-                <h3>Hootsuite Pro</h3>
-                <div class="level" style="width:92%"></div>
-                <div class="rest" style="width:6%"></div>
-                <div class="hexagono" style="left:90%">
-                  <p>94%</p>
-                </div>
-              </div>
-              
-              <div class="skill">
-                <h3>Google Adwords</h3>
-                <div class="level" style="width:75%"></div>
-                <div class="rest" style="width:24%"></div>
-                <div class="hexagono" style="left:75%">
-                  <p>75%</p>
-                </div>
-              </div>
-
-              <div class="skill">
-                <h3>Google Analytics</h3>
-                <div class="level" style="width:75%"></div>
-                <div class="rest" style="width:24%"></div>
-                <div class="hexagono" style="left:75%">
-                  <p>75%</p>
-                </div>
-              </div>
-
-              <div class="skill">
-                <h3>HTML</h3>
-                <div class="level" style="width:69%"></div>
-                <div class="rest" style="width:30%"></div>
-                <div class="hexagono" style="left:70%">
-                  <p>70%</p>
-                </div>
-              </div>
-
-              <div class="skill">
-                <h3>CSS</h3>
-                <div class="level" style="width:60%"></div>
-                <div class="rest" style="width:39%"></div>
-                <div class="hexagono" style="left:60%">
-                  <p>60%</p>
-                </div>
-              </div> 
-          </div>
-        </article>
-
-        <article id="tecnicas">
-          <h2>Skills Técnicas otro software</h2>
-          <div class="box_skills">
-              <div class="skill">
-                <h3>Office</h3>
-                <div class="level" style="width:90%"></div>
-                <div class="rest" style="width:9%"></div>
                 <div class="hexagono" style="left:90%">
                   <p>90%</p>
                 </div>
               </div>
 
               <div class="skill">
+                <h3>Daptiv</h3>
+                <div class="level" style="width:92%"></div>
+                <div class="rest" style="width:6%"></div>
+                <div class="hexagono" style="left:90%">
+                  <p>90%</p>
+                </div>
+              </div>
+
+              <div class="skill">
+                <h3>Project Server</h3>
+                <div class="level" style="width:30%"></div>
+                <div class="rest" style="width:68%"></div>
+                <div class="hexagono" style="left:30%">
+                  <p>30%</p>
+                </div>
+              </div>
+
+              <div class="skill">
+                <h3>Clarity</h3>
+                <div class="level" style="width:92%"></div>
+                <div class="rest" style="width:6%"></div>
+                <div class="hexagono" style="left:90%">
+                  <p>90%</p>
+                </div>
+              </div>
+
+
+              <div class="skill">
+                <h3>Jira</h3>
+                <div class="level" style="width:69%"></div>
+                <div class="rest" style="width:29%"></div>
+                <div class="hexagono" style="left:70%">
+                  <p>70%</p>
+                </div>
+              </div>
+
+              <div class="skill">
+                <h3>Trello</h3>
+                <div class="level" style="width:69%"></div>
+                <div class="rest" style="width:29%"></div>
+                <div class="hexagono" style="left:70%">
+                  <p>70%</p>
+                </div>
+              </div>
+
+              <div class="skill">
                 <h3>Visio</h3>
-                <div class="level" style="width:82%"></div>
-                <div class="rest" style="width:17%"></div>
+                <div class="level" style="width:69%"></div>
+                <div class="rest" style="width:29%"></div>
+                <div class="hexagono" style="left:70%">
+                  <p>70%</p>
+                </div>
+              </div>
+
+              <div class="skill">
+                <h3>Bizagi</h3>
+                <div class="level" style="width:80%"></div>
+                <div class="rest" style="width:18%"></div>
                 <div class="hexagono" style="left:80%">
-                  <p>82%</p>
-                </div>
-              </div>
-              
-              <div class="skill">
-                <h3>Mind Manager</h3>
-                <div class="level" style="width:82%"></div>
-                <div class="rest" style="width:16%"></div>
-                <div class="hexagono" style="left:87%">
-                  <p>87%</p>
+                  <p>80%</p>
                 </div>
               </div>
 
               <div class="skill">
-                <h3>SPSS</h3>
-                <div class="level" style="width:52%"></div>
-                <div class="rest" style="width:46%"></div>
-                <div class="hexagono" style="left:54%">
-                  <p>54%</p>
+                <h3>PHOTOSHOP</h3>
+                <div class="level" style="width:30%"></div>
+                <div class="rest" style="width:68%"></div>
+                <div class="hexagono" style="left:30%">
+                  <p>30%</p>
                 </div>
               </div>
-              
+
               <div class="skill">
-                <h3>GIT</h3>
+                <h3>ILLUSTRATOR</h3>
+                <div class="level" style="width:30%"></div>
+                <div class="rest" style="width:68%"></div>
+                <div class="hexagono" style="left:30%">
+                  <p>30%</p>
+                </div>
+              </div>
+
+              <div class="skill">
+                <h3>BD</h3>
+                <div class="level" style="width:30%"></div>
+                <div class="rest" style="width:68%"></div>
+                <div class="hexagono" style="left:30%">
+                  <p>30%</p>
+                </div>
+              </div>
+
+              <div class="skill">
+                <h3>HTML</h3>
                 <div class="level" style="width:40%"></div>
                 <div class="rest" style="width:58%"></div>
                 <div class="hexagono" style="left:40%">
@@ -258,7 +265,7 @@
               </div>
 
               <div class="skill">
-                <h3>MYSQL</h3>
+                <h3>CSS</h3>
                 <div class="level" style="width:40%"></div>
                 <div class="rest" style="width:58%"></div>
                 <div class="hexagono" style="left:40%">
@@ -267,20 +274,20 @@
               </div>
 
               <div class="skill">
-                <h3>Photoshop, Premier</h3>
-                <div class="level" style="width:65%"></div>
-                <div class="rest" style="width:33%"></div>
-                <div class="hexagono" style="left:65%">
-                  <p>65%</p>
+                <h3>OFFICE 2016 y Anteriores </h3>
+                <div class="level" style="width:92%"></div>
+                <div class="rest" style="width:6%"></div>
+                <div class="hexagono" style="left:90%">
+                  <p>90%</p>
                 </div>
               </div>
 
               <div class="skill">
-                <h3>SAP</h3>
-                <div class="level" style="width:32%"></div>
-                <div class="rest" style="width:66%"></div>
-                <div class="hexagono" style="left:33%">
-                  <p>33%</p>
+                <h3>Jira</h3>
+                <div class="level" style="width:70%"></div>
+                <div class="rest" style="width:18%"></div>
+                <div class="hexagono" style="left:70%">
+                  <p>70%</p>
                 </div>
               </div> 
           </div>
@@ -307,30 +314,33 @@
               </div>  
               <div class="skill">
                 <h3>Dedicacion</h3>
-                <div class="level" style="width:72%"></div>
-                <div class="rest" style="width:26%"></div>
-                <div class="hexagono" style="left:73%">
-                  <p>73%</p>
+                <div class="level" style="width:62%"></div>
+                <div class="rest" style="width:36%"></div>
+                <div class="hexagono" style="left:63%">
+                  <p>63%</p>
                 </div>
               </div>  
               <div class="skill">
                 <h3>Comunicación</h3>
-                <div class="level" style="width:79%"></div>
-                <div class="rest" style="width:19%"></div>
-                <div class="hexagono" style="left:80%">
-                  <p>82%</p>
+                <div class="level" style="width:89%"></div>
+                <div class="rest" style="width:9%"></div>
+                <div class="hexagono" style="left:90%">
+                  <p>92%</p>
                 </div>
               </div>    
           </div>
         </article>  
       </div>
 
+
+
+<!-- Cuadro de otras habilidades en la pagina de skills -->
       <div id="other_skills">
         <article id="conocimientos">
-          <h2>Cursos tomados</h2>
+          <h2>Cursos Tomados</h2>
+
           <ul>
-            
-            <li><a href="doctos/Cursos y talleres/TS/taller de innovación.pdf">Innovación</a></li>
+          <li><a href="doctos/Cursos y talleres/TS/taller de innovación.pdf">Innovación</a></li>
             <li><a href="doctos/Cursos y talleres/TS/tag manager course.png">Google Analytics</a></li>
             <li><a href="doctos/Cursos y talleres/TS/SMC.pdf">SCRUM Master</a></li>
             <li><a href="doctos/Cursos y talleres/Infonavit/Oficina de proyectos.pdf">Curso de Gestión de la Oficina de Proyectos</a></li>
@@ -359,20 +369,6 @@
           </ul>
         </article>
 
-        <div id="other_skills">
-        <article id="conocimientos">
-          <h2>Certificaciones</h2>
-          <ul>
-            <li><a href="doctos/Cursos y talleres/TS/tag manager course.png">Google Analytics</a></li>
-            <li><a href="doctos/Cursos y talleres/TS/SMC.pdf">SCRUM Master Certified</a></li>
-            <li><a href="">Hootsuite Professional Certified / Hootsuite</a></li>
-            </ul>
-            <ul>
-            <li><a href="doctos/pmp/Certification_1416045_2020.pdf">Project Management Professional</a></li>
-            <li><a href="doctos/Cursos y talleres/TS/SFC.pdf">SCRUM Fundamentals Certified</a></li>
-            <li><a href="doctos/Cursos y talleres/TS/TSPM.pdf">TenStep Project Management</a></li>
-          </ul>
-        </article>
         <article id="hobbies">
           <h2>Hobbies</h2>
           <div class="hobby">
@@ -394,61 +390,250 @@
             <div></div><p>Cine</p>
           </div>
         </article>
-        
+
+                
       </div>
     </section>
 
     <section class="slide" id="portfolio" style="display:none">
       <div id="content_portfolio">
           <div id="categorias">
-        <h2 onClick = "SearchJobs('todos')">todos</h2>
-        <h2 onClick = "SearchJobs('impresion')">Educación </h2>
-        <h2 onClick = "SearchJobs('logotipo')">Experiencia</h2>
+<!--         <h2 onClick = "SearchJobs('todos')">todos</h2> --> 
+        <h2 onClick = "SearchJobs('Experiencia')">Experiencia</h2>
+        <h2 onClick = "SearchJobs('Educacion')">Educación</h2>
+        <!-- <h2 onClick = "SearchJobs('websites')">websites</h2>
+        <h2 onClick = "SearchJobs('multimedia')">multimedia</h2> -->
       </div>
 
-      <div id="jobs">  
-        <article class="impresion">
+      <div id="jobs">
+        <article class="Educacion">
           <figure>
             <img src="iconos/icon-10.png" alt="">
-            <figcaption>Licenciatura</figcaption>
+            <figcaption>Educación<span>Licenciatura</span></figcaption>
           </figure>
-        </article>    
-            
-        <article class="impresion">
+        </article>  
+          
+        <article class="Educacion">
           <figure>
             <img src="iconos/icon-10.png" alt="">
-            <figcaption>Certificaciones<span><a href="doctos/pmp/Certification_1416045.pdf">PMP</a></span><span><a href="img/otros.jpg">SCRUM</a></span></figcaption>
-          </figure>
-        </article>
-        <article class="logotipo">
-          <figure>
-            <img src="iconos/icon-10.png" alt="">
-            <figcaption>2002-2005<span><a href="img/otros.jpg">Otros</a></span></figcaption>
+            <figcaption>Educación<span>PMP</span></figcaption>
           </figure>
         </article>
-        <article class="logotipo">
+        
+        <article class="Educacion">
           <figure>
             <img src="iconos/icon-10.png" alt="">
-            <figcaption>2008-2013<span><a href="img/infonavit.jpg">INFONAVIT</a></span></figcaption>
+            <figcaption>Educación<span>SCRUM Master</span></figcaption>
           </figure>
         </article>
-        <article class="logotipo">
+
+        <article class="Educacion">
           <figure>
             <img src="iconos/icon-10.png" alt="">
-            <figcaption>2013-2016<span><a href="img/metlife.jpg">Metlife</a></span> <span><a href="img/stin.jpg">STIN</a></span> <span><a href="img/sai.jpg">SAI</a></span> </figcaption>
+            <figcaption>Educación<span>ITIL Fundamentals v.4</span></figcaption>
           </figure>
-        </article>    
-        <article class="logotipo">
+        </article>  
+        
+        <article class="Educacion">
           <figure>
             <img src="iconos/icon-10.png" alt="">
-            <figcaption><a href="img/TenStep.jpg">Actual</a></figcaption>
+            <figcaption>Educación<span>ITIL OSA</span></figcaption>
+          </figure>
+        </article>  
+        
+        <article class="Educacion">
+          <figure>
+            <img src="iconos/icon-10.png" alt="">
+            <figcaption>Educación<span>YBSS </span></figcaption>
           </figure>
         </article>
+
+        <article class="Experiencia">
+          <figure>
+            <img src="iconos/icon-10.png" alt="">
+            <figcaption>Experiencia<span>INFONAVIT</span></figcaption>
+          </figure>
+        </article>
+
+        <article class="Experiencia">
+          <figure>
+            <img src="iconos/icon-10.png" alt="">
+            <figcaption>Experiencia<span>METLIFE</span></figcaption>
+          </figure>
+        </article>  
+        
+        <article class="Experiencia">
+          <figure>
+            <img src="iconos/icon-10.png" alt="">
+            <figcaption>Experiencia<span>STIN MÉXICO</span></figcaption>
+          </figure>
+        </article>  
+        
+        <article class="Experiencia">
+          <figure>
+            <img src="iconos/icon-10.png" alt="">
+            <figcaption>Experiencia<span>SAI</span></figcaption>
+          </figure>
+        </article>
+
+        <article class="Experiencia">
+          <figure>
+            <img src="iconos/icon-10.png" alt="">
+            <figcaption>Experiencia<span>TENSTEP MÉXICO</span></figcaption>
+          </figure>
+        </article>
+
+        <article class="Experiencia">
+          <figure>
+            <img src="iconos/icon-10.png" alt="">
+            <figcaption>Experiencia<span>TOTALPLAY</span></figcaption>
+          </figure>
+        </article>
+
+        <article class="Experiencia">
+          <figure>
+            <img src="iconos/icon-10.png" alt="">
+            <figcaption>Experiencia<span> VOSEDA</span> <span> NETWORKS </span></figcaption>
+          </figure>
+        </article>
+
+        <article class="Experiencia">
+          <figure>
+            <img src="iconos/icon-10.png" alt="">
+            <figcaption>Experiencia<span>ITERA</span></figcaption>
+          </figure>
+        </article>
+
+
+        <article class="Experiencia">
+          <figure>
+            <img src="iconos/icon-10.png" alt="">
+            <figcaption>Experiencia<span>INETUM / TELCEL</span></figcaption>
+          </figure>
+        </article>
+
       </div>  
       </div>
       
     </section>
 
+<!--     <section class="slide" id="blog" style="display:none">
+      <div id="container_blog">
+        <article class="post double">
+          <div class="post_izq">
+            <figure><img src="iconos/icon-16.png" alt=""></figure>
+          </div>  
+          <div class="post_dcha">
+            <div class="post_text">
+              <span>ago 00, 2016</span>
+              <h2>Entrada 1</h2>
+              <p>0 comentarios</p>
+            </div>
+          </div>
+        </article>
+        <article class="post">
+          <div class="post_text">
+            <span>ago 00, 2016</span>
+            <h2>Entrada 1</h2>
+            <p>0 comentarios</p>
+          </div>
+        </article>
+
+        <article class="post">
+          <div class="post_text">
+            <span>ago 00, 2016</span>
+            <h2>Entrada 1</h2>
+            <p>0 comentarios</p>
+          </div>
+        </article>
+
+        <article class="post">
+          <div class="post_text">
+            <span>ago 00, 2016</span>
+            <h2>Entrada 1</h2>
+            <p>0 comentarios</p>
+          </div>
+        </article>
+
+        <article class="post double">
+          <div class="post_izq">
+            <figure><img src="iconos/icon-16.png" alt=""></figure>
+          </div>  
+          <div class="post_dcha">
+            <div class="post_text">
+              <span>ago 00, 2016</span>
+              <h2>Entrada 1</h2>
+              <p>0 comentarios</p>
+            </div>
+          </div>
+        </article>
+        <article class="post">
+          <div class="post_text">
+            <span>ago 00, 2016</span>
+            <h2>Entrada 1</h2>
+            <p>0 comentarios</p>
+          </div>
+        </article>
+        <article class="post double">
+          <div class="post_izq">
+            <figure><img src="iconos/icon-16.png" alt=""></figure>
+          </div>  
+          <div class="post_dcha">
+            <div class="post_text">
+              <span>ago 00, 2016</span>
+              <h2>Entrada 1</h2>
+              <p>0 comentarios</p>
+            </div>
+          </div>
+        </article>
+        <article class="post">
+          <div class="post_text">
+            <span>ago 00, 2016</span>
+            <h2>Entrada 1</h2>
+            <p>0 comentarios</p>
+          </div>
+        </article>
+
+        <article class="post">
+          <div class="post_text">
+            <span>ago 00, 2016</span>
+            <h2>Entrada 1</h2>
+            <p>0 comentarios</p>
+          </div>
+        </article>
+
+        <article class="post">
+          <div class="post_text">
+            <span>ago 00, 2016</span>
+            <h2>Entrada 1</h2>
+            <p>0 comentarios</p>
+          </div>
+        </article>
+
+        <article class="post double">
+          <div class="post_izq">
+            <figure><img src="iconos/icon-16.png" alt=""></figure>
+          </div>  
+          <div class="post_dcha">
+            <div class="post_text">
+              <span>ago 00, 2016</span>
+              <h2>Entrada 1</h2>
+              <p>0 comentarios</p>
+            </div>
+          </div>
+        </article>
+        <article class="post">
+          <div class="post_text">
+            <span>ago 00, 2016</span>
+            <h2>Entrada 1</h2>
+            <p>0 comentarios</p>
+          </div>
+        </article>
+
+      </div>
+      
+    </section>
+ -->
   </div>
 
   
@@ -655,8 +840,8 @@
       var options = new Array(5);
       
       options[0] = "todos";
-      options[1] = "impresion";
-      options[2] = "logotipo";
+      options[1] = "Experiencia";
+      options[2] = "Educacion";
       options[3] = "websites";
       options[4] = "multimedia";
 /*
@@ -708,7 +893,6 @@
 </script>
 
 </body>
-
 </html>
 
 
