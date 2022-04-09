@@ -679,8 +679,8 @@ header nav #card_menu ul li a{
 	transform: scale(1.3);
 }
 #slider #portfolio #jobs article figure:hover{
-	transform: rotateY(90deg);
-	opacity: 0;
+/*	transform: rotateY(90deg);
+*/	opacity: 20;
 }
 #slider #portfolio #jobs article figure figcaption{
 	position: relative;
